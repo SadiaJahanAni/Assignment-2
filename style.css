@@ -128,12 +128,20 @@ footer{
     
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
          body{
              background-color: gray;
          }
 
-        
+
+        .grid{
+            width: 50%;
+            flex-direction: column;
+        }
+        .flex{
+            flex-direction: column;
+            width: 100%;
+        }
 }
 
 
