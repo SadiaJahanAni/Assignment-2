@@ -1,16 +1,19 @@
 .half-width{
     display: flex;
     background-color: blue;
-    margin-bottom: 20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     color: white;
+    margin-bottom: 20%;
+
     
     
 }
+
 .image-size{
     width: 50%;
     margin-left: 20%;
+    padding-top: 15px;
     
 }
 .margin{
@@ -23,32 +26,20 @@
     font-weight: 700;
     
 }
+.button-color:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
 i{
   padding-left: 10px;
 }
 
     
 
-p{
-    margin-right: 50%;
-}
-.buttons{
-    background-color: violet;
-    padding: 2% 10% 2% 10%;
-    
-    font-weight: 700;
-}
-.match-player{
-    width: 50%;
-}
 .flex{
     display:flex;
     margin-left: 30%;
     
-}
-
-.player-box-shadow{
-    box-shadow: 3px 3px 3px 3px solid black;
 }
 
 .player-details{
@@ -68,11 +59,13 @@ p{
 
 .player-details:hover .player-image{
     transform: scale(1.3);
+    transition: transform 2s ease-in-out;
 }
 .MARGIN{
     margin-right: 20%;
     margin-top: 15%;
     color: blue;
+
 
 }
 
@@ -101,11 +94,9 @@ footer{
 }
 
 
-
-
 .player{
     width:300px;
-    height: 543px;
+    height: 450px;
     box-shadow: 2px 2px 2px 2px rgb(187, 182, 182);
     padding: 8px 8px 8px 8px;
     
@@ -134,14 +125,15 @@ footer{
     grid-row-gap: 27px;
     grid-column-gap: 30px;
     
-     
-    
-    
-}
-@media (max-width:700px) {
     
 }
 
+@media (max-width:500px) {
+         body{
+             background-color: gray;
+         }
 
+        
+}
 
 
